@@ -1,3 +1,5 @@
-export default function Tasks() {
-    return <h1>Tasks</h1>
+export default function Tasks(props) {
+    return
+    <h1 >{props.tasks.map((task) => task.title
+    )}</h1>;
 }
